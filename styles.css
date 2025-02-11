@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe6e6;
+}
+
+#app {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page {
+    display: none;
+}
+
+.page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3366;
+}
+
+.page button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.page.hidden {
+    display: none;
+}
+
+.page:not(.hidden) {
+    display: block;
+}
+
+.valentine-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}

@@ -26,7 +26,7 @@ E per concludere la serata, passeremo un po' di tempo insieme sul quel divano ch
 Non vedo l'ora di passare questa serata speciale con te!
 
 Con affetto,
-${sessionStorage.getItem('user')}`;
+${sessionStorage.getItem('hakime1667')}`;
 
     window.open(`mailto:hakime1667@gmail.com?subject=Serata Speciale di San Valentino&body=${encodeURIComponent(emailBody)}`);
 }
